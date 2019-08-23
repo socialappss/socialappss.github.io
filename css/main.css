@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato',sans-serif;
+    color: white;
+    background-color: #059DC1;
+}
+
+.login-area {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-card {
+    width: 350px;
+    background: rgba(0,0,0,0.85);
+    margin-top: 24px;
+    border-radius: 30px;
+    padding: 36px 36px 0 36px;
+    max-height: 533.313px;
+}
+
+.login-card img {
+    width: 45%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.login-card-create-account {
+    float: right;
+    text-align: right;
+    margin-top: 6px;
+    font-size: 70%;
+}
+
+form {
+    margin-top: 36px;
+}
+
+#email, #password {
+    margin: 6px 0 6px 0;
+    width: 100%;
+    height: 38px;
+    display: block;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 1px solid #d8e0e6;
+    background: #fff;
+    padding: 8px 12px;
+    -webkit-appearance: none;
+    border-radius: 0.15rem;
+    font-weight: bold;
+    color: #059DC1;
+    font-size: 120%;
+    transition: all 0.2s ease-out;
+}
+
+#email:focus, #password:focus {
+    border: 3px solid #059DC1;
+    border-radius: 0;
+}
+
+#submit {
+    float: right;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 3px;
+    color: white;
+    background: transparent;
+    border: solid white 1px;
+    padding: 6px 36px;
+    overflow: visible;
+    margin-top: -20px;
+}
+
+#submit:hover {
+    background: rgba(50,50,50,0.7);
+}
